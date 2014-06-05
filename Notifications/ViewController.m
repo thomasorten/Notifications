@@ -9,10 +9,17 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *myTextField;
 
 @end
 
 @implementation ViewController
+
+- (IBAction)changeColor:(id)sender
+{
+    [self.view endEditing:YES];
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"ChangeColorNotification" object:self.myTextField.text];
+}
 
 - (void)viewDidLoad
 {

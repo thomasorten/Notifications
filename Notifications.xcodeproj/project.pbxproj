@@ -21,6 +21,7 @@
 		45ADAF261940C8D100D0FA43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45ADAF081940C8D100D0FA43 /* UIKit.framework */; };
 		45ADAF2E1940C8D100D0FA43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45ADAF2C1940C8D100D0FA43 /* InfoPlist.strings */; };
 		45ADAF301940C8D100D0FA43 /* NotificationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ADAF2F1940C8D100D0FA43 /* NotificationsTests.m */; };
+		45ADAF3B1940C8EB00D0FA43 /* ColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45ADAF3A1940C8EB00D0FA43 /* ColorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		45ADAF2B1940C8D100D0FA43 /* NotificationsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NotificationsTests-Info.plist"; sourceTree = "<group>"; };
 		45ADAF2D1940C8D100D0FA43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45ADAF2F1940C8D100D0FA43 /* NotificationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationsTests.m; sourceTree = "<group>"; };
+		45ADAF391940C8EB00D0FA43 /* ColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorView.h; sourceTree = "<group>"; };
+		45ADAF3A1940C8EB00D0FA43 /* ColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		45ADAF0A1940C8D100D0FA43 /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				45ADAF391940C8EB00D0FA43 /* ColorView.h */,
+				45ADAF3A1940C8EB00D0FA43 /* ColorView.m */,
 				45ADAF131940C8D100D0FA43 /* AppDelegate.h */,
 				45ADAF141940C8D100D0FA43 /* AppDelegate.m */,
 				45ADAF161940C8D100D0FA43 /* Main.storyboard */,
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45ADAF3B1940C8EB00D0FA43 /* ColorView.m in Sources */,
 				45ADAF1B1940C8D100D0FA43 /* ViewController.m in Sources */,
 				45ADAF151940C8D100D0FA43 /* AppDelegate.m in Sources */,
 				45ADAF111940C8D100D0FA43 /* main.m in Sources */,
